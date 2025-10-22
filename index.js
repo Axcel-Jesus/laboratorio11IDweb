@@ -1,0 +1,13 @@
+console.log("calcular promedio de 5 notas");
+let nota1=prompt("ingrese nota 1");
+let n1=parseFloat(nota1);
+let nota2=prompt("ingrese nota 2");
+let n2=parseFloat(nota2);
+let nota3=prompt("ingrese nota 3");
+let n3=parseFloat(nota3);
+let nota4=prompt("ingrese nota 4");
+let n4=parseFloat(nota4);
+let nota5=prompt("ingrese nota 5");
+let n5=parseFloat(nota5);
+let promedio=(n1+n2+n3+n4+n5)/5;
+console.log("el promedio de la 5 notas es: "+promedio);
