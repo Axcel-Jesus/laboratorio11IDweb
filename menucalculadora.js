@@ -11,8 +11,11 @@ while(bucle){
             let numero=0;
             while(numero!=-1){
                 let nota=prompt("ingrese una nota");
-                notas.push(parseFloat(nota));
                 numero=parseInt(nota);
+                if(numero==-1){
+                    continue;
+                }
+                notas.push(parseFloat(nota));
             }
             console.log("las notas ingresadas son: "+notas);
             console.log("el promedio es: "+calcularPromedio(notas));
